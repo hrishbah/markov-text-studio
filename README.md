@@ -87,7 +87,7 @@ python -m pytest -q
 
 ## Verified results
 
-- `python -m pytest -q`: 21 passed.
+- `python -m pytest -q`: 25 passed.
 - `python -m compileall -q app.py markov_text tests`: clean.
 - `python -m pip check`: no broken requirements.
 - `python -c "import markov_text; print(markov_text.__file__)"`: passes.
